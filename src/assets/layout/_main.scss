@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: $scale;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+  
+    //background-color: var(--surface-ground);
+    background-color: #85694C;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ a {
+    color:#F8F3CD;
+    font-size: 15px;
+ }
+
+.layout-wrapper {
+    min-height: 100vh;
+}
